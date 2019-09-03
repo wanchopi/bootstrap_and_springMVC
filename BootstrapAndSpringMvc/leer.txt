@@ -1,0 +1,14 @@
+Integrar Bootstrap con Spring MVC en un proyecto Web
+
+Un pequeño ejemplo de como integrar Bootstrap con Spring MVC en un proyecto web,
+
+Simplemente consta de una página principal con un enlace que lleva a un formulario para que se introduzca un empleado (nombre, apellido y correo electrónico) que supuestamente se guardaría en una base de datos.
+Lo interesante del asunto es como combinar bootstrap con las etiquetas "Spring MVC Form Tag Library".
+
+Tools and Technologies
+
+1. Bootstrap 4.0.0
+2. Maven 3.6.0
+3. JRE 1.8
+4. Spring 5.1.5
+5. Apache Tomcat v8
