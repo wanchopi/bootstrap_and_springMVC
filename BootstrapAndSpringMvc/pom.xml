@@ -3,6 +3,7 @@
   <groupId>com.wanchopi.spring</groupId>
   <artifactId>TwitterBootstrapAndSpringMvc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
   <dependencies>
   	<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
 	<dependency>
@@ -35,6 +36,7 @@
 	    <version>1.2</version>  
 	</dependency>
   </dependencies>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>

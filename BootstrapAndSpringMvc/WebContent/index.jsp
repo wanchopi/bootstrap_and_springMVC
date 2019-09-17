@@ -12,8 +12,8 @@
 			<img alt="logo spring" src="${pageContext.request.contextPath}/public/images/logo.png">
 		</div>
 		<div class="col-lg-12" style="margin-left: 50px">
-			<h1>Twitter Bootstrap With Spring MVC</h1>
-			<a href="employee/addEmployee">add employee</a>
+			<h1>Bootstrap con Spring MVC</h1>
+			<a href="employee/addEmployee">Añadir empleado</a>
 		</div>
 	</div>
 </body>

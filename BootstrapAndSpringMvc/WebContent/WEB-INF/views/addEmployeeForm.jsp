@@ -12,34 +12,37 @@
 	<div class="container-fluid">
 		<div class="col-lg-10 col-logo">
 			<img alt="logo spring" src="${pageContext.request.contextPath}/public/images/logo.png">
-			<h1>Twitter Bootstrap With Spring MVC</h1>
+			<h1>Bootstrap con Spring MVC</h1>
 		</div>
 		<div class="col-lg-12">
 		<div class="col-lg-6" style="margin-left: 400px">
-			<h2>Sign-up Form</h2>
-			<!-- <form class="form-horizontal"  method="post" action='employee/confirmEmployee' name="employeeForm" id="employeeForm"> -->
+			<h2>Cubrir el formulario</h2>
 			<form:form action="confirmEmployee" modelAttribute="employee">
 				<div class="form-group row">
-      				<label class="col-sm-2 col-form-label">First Name</label>
+      				<label class="col-sm-2 col-form-label">Nombre</label>
       				<div class="col-sm-6">
-       					<input type="text" class="form-control" name="name" id="name" value=" ">
+       					<form:input path="name" type="text" class="form-control" />
       				</div>
      			</div>
      			<div class="form-group row">
-      				<label class="col-sm-2 col-form-label">Last Name</label>
+      				<label class="col-sm-2 col-form-label">Apellido</label>
       				<div class="col-sm-6">
-       					<input type="text" class="form-control" name="surname" id="surname" value=" ">
+       					<form:input path="surname" type="text" class="form-control" />
       				</div>
      			</div>
      			<div class="form-group row">
       				<label class="col-sm-2 col-form-label">Email</label>
       				<div class="col-sm-6">
-       					<input type="email" class="form-control" name="email" id="email" value=" ">
+       					<form:input path="email" type="text" class="form-control" />
       				</div>
      			</div>
      			<div class="form-group row">
-      				<button type="submit" class="btn btn-success">Submit</button>
-      				<button type="button" class="btn">Cancel</button>
+     				<div class="col-lg-2">
+     					<button type="submit" class="btn btn-success">Enviar</button>
+     				</div>
+     				<div class="col-lg-2">
+     					<button type="reset" class="btn">Cancelar</button>
+     				</div>
      			</div>
 			</form:form>
 		</div>	
